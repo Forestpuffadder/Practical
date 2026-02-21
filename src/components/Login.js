@@ -3,9 +3,9 @@ import {Form, Button} from 'react-bootstrap';
 
 var PastebinAPI = require('pastebin-js');
 var pastebin =  new PastebinAPI({
-    'api_dev_key' : '4d0e7ac85c09b0c56f4d4327896de86e',
-    'api_user_name' : 'divyesh_paste',
-    'api_user_password' : 'Welcome@paste123'
+    'api_dev_key' : '',
+    'api_user_name' : '',
+    'api_user_password' : ''
    });
 // https://pastebin.com/api/api_login.php
 
@@ -75,3 +75,4 @@ class Login extends Component {
 }
 
 export default Login;
+
